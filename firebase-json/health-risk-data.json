@@ -1,0 +1,59 @@
+{
+  "blood_type_risks": {
+    "A+": 10,
+    "A-": 10,
+    "B+": 12,
+    "B-": 12,
+    "AB+": 15,
+    "AB-": 15,
+    "O+": 8,
+    "O-": 8
+  },
+  "pregnancy_stage_tips": {
+    "awareness": "You're in the awareness phase—focus on optimizing health before conception.",
+    "trying": "You're trying to conceive—consider prenatal vitamins and regular health screenings.",
+    "pregnant": "You're currently pregnant—attend regular prenatal visits and follow medical advice."
+  },
+  "condition_risks": {
+    "diabetes": {
+      "risk": 25,
+      "awareness": "Manage blood sugar levels before conception to reduce pregnancy complications.",
+      "trying": "Monitor glucose levels and adopt a balanced diet to support fertility.",
+      "pregnant": "Gestational diabetes may affect your baby's growth—follow medical advice closely."
+    },
+    "asthma": {
+      "risk": 15,
+      "awareness": "Manage asthma symptoms to avoid complications during pregnancy.",
+      "trying": "Keep asthma well-controlled to ensure better respiratory health for pregnancy.",
+      "pregnant": "Uncontrolled asthma may affect fetal oxygen—consult your doctor for a safe treatment plan."
+    }
+  },
+  "lifestyle_tips": {
+    "smoking": {
+      "pregnant": "Smoking during pregnancy increases the risk of premature birth and low birth weight. Seek support to quit immediately.",
+      "default": "Consider quitting smoking to reduce health risks and improve pregnancy outcomes."
+    },
+    "pollution": {
+      "high": {
+        "pregnant": "High pollution exposure during pregnancy may affect fetal development. Minimize exposure where possible.",
+        "default": "Reduce exposure to polluted areas when possible for better long-term health."
+      },
+      "medium": {
+        "default": "Be mindful of pollution exposure and consider using air purifiers."
+      }
+    },
+    "alcohol": {
+      "frequent": {
+        "pregnant": "Avoid alcohol entirely during pregnancy to prevent fetal alcohol syndrome.",
+        "default": "Limit alcohol intake to lower health risks and improve fertility outcomes."
+      },
+      "occasional": {
+        "default": "Moderate alcohol consumption is better for overall health and future pregnancy."
+      }
+    },
+    "exercise": {
+      "none": "Incorporate regular physical activity into your routine for better health.",
+      "low": "Increase exercise frequency to improve overall and reproductive health."
+    }
+  }
+}
